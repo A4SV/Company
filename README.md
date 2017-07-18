@@ -6,7 +6,7 @@ Company
 Outras informações
 -------------
 
-### Autor e Licença
+### Autores e Licença
 
 Jõao Gabriel<br />
 Nícola Serafim <http://pnhs.com.br><br />
