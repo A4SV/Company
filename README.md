@@ -8,6 +8,6 @@ Outras informações
 
 ### Autor e Licença
 
-Jõao Gabriel
+Jõao Gabriel\n
 Nícola Serafim <http://pnhs.com.br>
 Copyright 2017, Apache Licence v2.0
