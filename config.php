@@ -1,4 +1,4 @@
-<?php
+<?php ob_start();
 
 /* 
  * ###############################################################################################################
@@ -34,19 +34,18 @@
  * ###############################################################################################################
  */
 
-require __DIR__.'/config.php';
-spl_autoload_register(function($classe){
-    if(strpos($classe, 'Controlador') > -1) {
-        if (file_exists('Controlador/'.$classe.'.php')) {
-            require_once 'Controlador/'.$classe.'.php';
-        }
-    } else
-    if (file_exists('Modelo/'.$classe.'.php')) {
-        require_once 'Modelo/'.$classe.'.php';
-    }
-    else {
-        require_once 'Nucleo/'.$classe.'.php';
-    }
-});
-$nucleo = new Nucleo();
-$nucleo->executar();
+session_start();
+global $config;
+$config = array();
+if (false) { //True production
+//Apenas em producao
+}
+else {
+    $config['name'] = "PnhsBD";
+
+    $config['host'] = "localhost";
+    $config['user'] = "select";
+    $config['pass'] = "select";
+
+}   
+    $config['driv'] = "mysql";

@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * ###############################################################################################################
  * ###############################################################################################################
  * ##                                                                                                           ##
@@ -34,19 +34,15 @@
  * ###############################################################################################################
  */
 
-require __DIR__.'/config.php';
-spl_autoload_register(function($classe){
-    if(strpos($classe, 'Controlador') > -1) {
-        if (file_exists('Controlador/'.$classe.'.php')) {
-            require_once 'Controlador/'.$classe.'.php';
-        }
-    } else
-    if (file_exists('Modelo/'.$classe.'.php')) {
-        require_once 'Modelo/'.$classe.'.php';
+/**
+ *
+ * @author Nícola Henrique Serafim
+ */
+class inicioControlador extends Controlador {
+    public function inicio() {
+        
+        $dados = array();
+        $this->carregarModelo('inicio', $dados);
+        
     }
-    else {
-        require_once 'Nucleo/'.$classe.'.php';
-    }
-});
-$nucleo = new Nucleo();
-$nucleo->executar();
+}

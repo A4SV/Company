@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * ###############################################################################################################
  * ###############################################################################################################
  * ##                                                                                                           ##
@@ -34,19 +34,31 @@
  * ###############################################################################################################
  */
 
-require __DIR__.'/config.php';
-spl_autoload_register(function($classe){
-    if(strpos($classe, 'Controlador') > -1) {
-        if (file_exists('Controlador/'.$classe.'.php')) {
-            require_once 'Controlador/'.$classe.'.php';
-        }
-    } else
-    if (file_exists('Modelo/'.$classe.'.php')) {
-        require_once 'Modelo/'.$classe.'.php';
+class Controlador extends Csrf {
+    public function carregarPagina($viewName, $viewData = array()) {
+        $viewNameArray = explode("_", $viewName);
+        if (is_array($viewNameArray)):
+            $viewName = implode("/", $viewNameArray);
+        endif;
+        extract($viewData);
+        include __DIR__.'/../Pagina/'.$viewName.'.php';
     }
-    else {
-        require_once 'Nucleo/'.$classe.'.php';
+
+    public function carregarModelo($viewName, $viewData = array(), $template = false) {
+        if (file_exists(__DIR__.'/../Pagina/modelo/'.$template.'.php')):
+            include __DIR__.'/../Pagina/modelo/'.$template.'.php';
+        else:
+            include __DIR__.'/../Pagina/modelo/padrao.php';
+        endif;
     }
-});
-$nucleo = new Nucleo();
-$nucleo->executar();
+    public function carregarPaginaEmModelo($viewName, $viewData = array()) {
+        $viewNameArray = explode("_", $viewName);
+        if (is_array($viewNameArray)):
+            $viewName = implode("/", $viewNameArray);
+        endif;
+        extract($viewData);
+        if (file_exists(__DIR__.'/../Pagina/'.$viewName.'.php')):
+            include __DIR__.'/../Pagina/'.$viewName.'.php';
+        endif;
+    }
+}

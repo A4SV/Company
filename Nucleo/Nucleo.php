@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * ###############################################################################################################
  * ###############################################################################################################
  * ##                                                                                                           ##
@@ -34,19 +34,35 @@
  * ###############################################################################################################
  */
 
-require __DIR__.'/config.php';
-spl_autoload_register(function($classe){
-    if(strpos($classe, 'Controlador') > -1) {
-        if (file_exists('Controlador/'.$classe.'.php')) {
-            require_once 'Controlador/'.$classe.'.php';
+class Nucleo {
+    private $controladorAtual;
+    private $acaoAtual;
+    public function executar() {
+        $url = explode("index.php", $_SERVER['PHP_SELF']);
+        $url = end($url);
+        $params = array();
+        if (!empty($url)) {
+            $url = explode('/', $url);
+            array_shift($url);
+            $controladorAtual = $url[0].'Controlador';
+            array_shift($url);
+            if (isset($url[0])) {
+                $acaoAtual = $url[0];
+                array_shift($url);
+            }
+            else {
+                $acaoAtual = 'inicio';
+            }
+            if (count($url) > 0) {
+                $params = $url;
+            }
         }
-    } else
-    if (file_exists('Modelo/'.$classe.'.php')) {
-        require_once 'Modelo/'.$classe.'.php';
+        else {
+            $controladorAtual   = 'inicioControlador';
+            $acaoAtual          = 'inicio';
+        }
+        require_once 'Controlador.php';
+        $c = new $controladorAtual();
+        call_user_func_array(array($c, $acaoAtual), $params);
     }
-    else {
-        require_once 'Nucleo/'.$classe.'.php';
-    }
-});
-$nucleo = new Nucleo();
-$nucleo->executar();
+}
