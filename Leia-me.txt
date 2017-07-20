@@ -1,5 +1,6 @@
 Ei Grabiel:
 1. Traduza o painel, com exceção do menu
+    PS: Acesse o painel /conta, ou seja http://company-dev.com.br/conta
 2. Liste as opcoes do menu aki
 
 Exemplo:
