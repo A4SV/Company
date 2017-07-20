@@ -1,0 +1,27 @@
+Ei Grabiel:
+1. Traduza o painel, com exceção do menu
+2. Liste as opcoes do menu aki
+
+Exemplo:
+* Inicio
+* Outra opção de menu
+# Submenu
+# Submenu 2
+* Menu 3
+# Submenu
+
+Liste o meu das tres opcoes:
+Usuarios no painel:
+
+
+Colaboradores (Programadores):
+
+
+Gestao do site (Administradores):
+
+
+Quando estiver com isto ok, me dar um tok.
+
+Flw xD At+
+
+@Nicola
