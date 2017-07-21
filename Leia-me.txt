@@ -1,28 +1,42 @@
-Ei Grabiel:
-1. Traduza o painel, com exceção do menu
-    PS: Acesse o painel /conta, ou seja http://company-dev.com.br/conta
-2. Liste as opcoes do menu aki
-
-Exemplo:
-* Inicio
-* Outra opção de menu
-# Submenu
-# Submenu 2
-* Menu 3
-# Submenu
-
-Liste o meu das tres opcoes:
-Usuarios no painel:
-
+Ei Nicola:
+1. Traduzi o painel, algumas coisas não porque deveriam estar abreviadas e pq será
+algo inutilizado por nós
+    
+2. O menu que você pediu 
 
 Colaboradores (Programadores):
 
+# Painel (inicio)
+# Sites Criados
+* Comissão ganha (total)
+# Cursos (disponibilizaremos a todos colaboradores cursos)
+*  Link do Curso de xx 
+#  Suporte 
+
+PS: Sem muita mas acho que é isso
 
 Gestao do site (Administradores):
 
+# Painel (inicio)
+# Colaboradores
+* Salarios (Seria para verificar os gastos da Company)
+* Sites Criados (aqui vai ter os pedidos e se foram atendidose por qual colaborador)
+# cursos
+* Add link curso (algo do tipo)
 
-Quando estiver com isto ok, me dar um tok.
+PS: Sem muita mas acho que é isso
 
-Flw xD At+
+3.criei o index lá não traduzi porq algumas coisas não será necessarias...
+pasta css-index lá contém o style da index ...Tira aquele "Layout .. " que está aparecendo na pag inicio.php
 
-@Nicola
+4.Como vai ser o painel dos usuarios?
+
+5. Quando vc criar o BD me passa dps e fala as suas conf do bd para eu n prescisar 
+ter que alterar o config sempre que for verificar e fazer algo
+
+Acho que é so isso;
+
+
+Flw 07 At+
+
+@Gabriel

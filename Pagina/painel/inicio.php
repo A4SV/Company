@@ -4,14 +4,14 @@
                 <li class="breadcrumb-item">Home</li>
                 <li class="breadcrumb-item"><a href="#">Admin</a>
                 </li>
-                <li class="breadcrumb-item active">Dashboard</li>
+                <li class="breadcrumb-item active">Painel</li>
 
-                <!-- Breadcrumb Menu-->
+                <!-- Breadcrumb Menu--> 
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                         <a class="btn btn-secondary" href="#"><i class="icon-speech"></i></a>
-                        <a class="btn btn-secondary" href="./"><i class="icon-graph"></i> &nbsp;Dashboard</a>
-                        <a class="btn btn-secondary" href="#"><i class="icon-settings"></i> &nbsp;Settings</a>
+                        <a class="btn btn-secondary" href="./"><i class="icon-graph"></i> &nbsp;Painel</a>
+                        <a class="btn btn-secondary" href="#"><i class="icon-settings"></i> &nbsp;Configurações</a>
                     </div>
                 </li>
             </ol>
@@ -33,13 +33,13 @@
                                             <i class="icon-settings"></i>
                                         </button>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Ações</a>
+                                            <a class="dropdown-item" href="#">Outra ação</a>
+                                            <a class="dropdown-item" href="#">Outra coisa aqui</a>
                                         </div>
                                     </div>
                                     <h4 class="mb-0">9.823</h4>
-                                    <p>Members online</p>
+                                    <p>Membros online</p>
                                 </div>
                                 <div class="chart-wrapper px-3" style="height:70px;">
                                     <canvas id="card-chart1" class="chart" height="70"></canvas>
@@ -55,7 +55,7 @@
                                         <i class="icon-location-pin"></i>
                                     </button>
                                     <h4 class="mb-0">9.823</h4>
-                                    <p>Members online</p>
+                                    <p>Membros online</p>
                                 </div>
                                 <div class="chart-wrapper px-3" style="height:70px;">
                                     <canvas id="card-chart2" class="chart" height="70"></canvas>
@@ -72,13 +72,13 @@
                                             <i class="icon-settings"></i>
                                         </button>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Ações</a>
+                                            <a class="dropdown-item" href="#">Outra ação</a>
+                                            <a class="dropdown-item" href="#">Outra coisa aqui</a>
                                         </div>
                                     </div>
                                     <h4 class="mb-0">9.823</h4>
-                                    <p>Members online</p>
+                                    <p>Membros online</p>
                                 </div>
                                 <div class="chart-wrapper" style="height:70px;">
                                     <canvas id="card-chart3" class="chart" height="70"></canvas>
@@ -95,13 +95,13 @@
                                             <i class="icon-settings"></i>
                                         </button>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Ações</a>
+                                            <a class="dropdown-item" href="#">Outra ação</a>
+                                            <a class="dropdown-item" href="#">Outra coisa aqui</a>
                                         </div>
                                     </div>
                                     <h4 class="mb-0">9.823</h4>
-                                    <p>Members online</p>
+                                    <p>Membros online</p>
                                 </div>
                                 <div class="chart-wrapper px-3" style="height:70px;">
                                     <canvas id="card-chart4" class="chart" height="70"></canvas>
@@ -116,8 +116,8 @@
                         <div class="card-block">
                             <div class="row">
                                 <div class="col-sm-5">
-                                    <h4 class="card-title mb-0">Traffic</h4>
-                                    <div class="small text-muted">November 2015</div>
+                                    <h4 class="card-title mb-0">Tráfego</h4>
+                                    <div class="small text-muted">Novembro 2015</div>
                                 </div>
                                 <!--/.col-->
                                 <div class="col-sm-7 hidden-sm-down">
@@ -126,13 +126,13 @@
                                     <div class="btn-toolbar float-right" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group mr-3" data-toggle="buttons" aria-label="First group">
                                             <label class="btn btn-outline-secondary">
-                                                <input type="radio" name="options" id="option1">Day
+                                                <input type="radio" name="options" id="option1">Dia
                                             </label>
                                             <label class="btn btn-outline-secondary active">
-                                                <input type="radio" name="options" id="option2" checked="">Month
+                                                <input type="radio" name="options" id="option2" checked="">Mês
                                             </label>
                                             <label class="btn btn-outline-secondary">
-                                                <input type="radio" name="options" id="option3">Year
+                                                <input type="radio" name="options" id="option3">Ano
                                             </label>
                                         </div>
                                     </div>
@@ -147,15 +147,15 @@
                         <div class="card-footer">
                             <ul>
                                 <li>
-                                    <div class="text-muted">Visits</div>
-                                    <strong>29.703 Users (40%)</strong>
+                                    <div class="text-muted">Visitas</div>
+                                    <strong>29.703 Usuarios (40%)</strong>
                                     <div class="progress progress-xs mt-2">
                                         <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </li>
                                 <li class="hidden-sm-down">
-                                    <div class="text-muted">Unique</div>
-                                    <strong>24.093 Users (20%)</strong>
+                                    <div class="text-muted">Exclusivo</div>
+                                    <strong>24.093 Usuarios (20%)</strong>
                                     <div class="progress progress-xs mt-2">
                                         <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
@@ -168,14 +168,14 @@
                                     </div>
                                 </li>
                                 <li class="hidden-sm-down">
-                                    <div class="text-muted">New Users</div>
-                                    <strong>22.123 Users (80%)</strong>
+                                    <div class="text-muted">Novos Usuarios</div>
+                                    <strong>22.123 Usuarios (80%)</strong>
                                     <div class="progress progress-xs mt-2">
                                         <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </li>
                                 <li class="hidden-sm-down">
-                                    <div class="text-muted">Bounce Rate</div>
+                                    <div class="text-muted">Taxa de rejeição </div>
                                     <strong>40.15%</strong>
                                     <div class="progress progress-xs mt-2">
                                         <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
@@ -196,7 +196,7 @@
                                 <ul>
                                     <li>
                                         <strong>89k</strong>
-                                        <span>friends</span>
+                                        <span>Amigos</span>
                                     </li>
                                     <li>
                                         <strong>459</strong>
@@ -217,7 +217,7 @@
                                 <ul>
                                     <li>
                                         <strong>973k</strong>
-                                        <span>followers</span>
+                                        <span>Seguidores</span>
                                     </li>
                                     <li>
                                         <strong>1.792</strong>
@@ -239,7 +239,7 @@
                                 <ul>
                                     <li>
                                         <strong>500+</strong>
-                                        <span>contacts</span>
+                                        <span>contatos</span>
                                     </li>
                                     <li>
                                         <strong>292</strong>
@@ -260,7 +260,7 @@
                                 <ul>
                                     <li>
                                         <strong>894</strong>
-                                        <span>followers</span>
+                                        <span>seguidores</span>
                                     </li>
                                     <li>
                                         <strong>92</strong>
@@ -278,7 +278,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    Traffic &amp; Sales
+                                    Tráfego &amp; Vendas
                                 </div>
                                 <div class="card-block">
                                     <div class="row">
@@ -286,7 +286,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6">
                                                     <div class="callout callout-info">
-                                                        <small class="text-muted">New Clients</small>
+                                                        <small class="text-muted">Novos Clientes</small>
                                                         <br>
                                                         <strong class="h4">9,123</strong>
                                                         <div class="chart-wrapper">
@@ -297,7 +297,7 @@
                                                 <!--/.col-->
                                                 <div class="col-sm-6">
                                                     <div class="callout callout-danger">
-                                                        <small class="text-muted">Recuring Clients</small>
+                                                        <small class="text-muted">Recuring Clientes</small>
                                                         <br>
                                                         <strong class="h4">22,643</strong>
                                                         <div class="chart-wrapper">
@@ -312,7 +312,7 @@
                                             <ul class="horizontal-bars">
                                                 <li>
                                                     <div class="title">
-                                                        Monday
+                                                        Segunda-Feira
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -325,7 +325,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Tuesday
+                                                        Terça-Feira
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -338,7 +338,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Wednesday
+                                                        Quarta-Feira
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -351,7 +351,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Thursday
+                                                        Quinta-Feira
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -364,7 +364,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Friday
+                                                        Sexta-Feira
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -377,7 +377,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Saturday
+                                                        Sabado
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -390,7 +390,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="title">
-                                                        Sunday
+                                                        Domingo
                                                     </div>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -403,9 +403,9 @@
                                                 </li>
                                                 <li class="legend">
                                                     <span class="badge badge-pill badge-info"></span>
-                                                    <small>New clients</small>&nbsp;
+                                                    <small>Novos clientes</small>&nbsp;
                                                     <span class="badge badge-pill badge-danger"></span>
-                                                    <small>Recurring clients</small>
+                                                    <small>Recurring clientes</small>
                                                 </li>
                                             </ul>
                                         </div>
@@ -425,7 +425,7 @@
                                                 <!--/.col-->
                                                 <div class="col-sm-6">
                                                     <div class="callout callout-success">
-                                                        <small class="text-muted">Organic</small>
+                                                        <small class="text-muted">Orgânica</small>
                                                         <br>
                                                         <strong class="h4">49,123</strong>
                                                         <div class="chart-wrapper">
@@ -440,7 +440,7 @@
                                             <ul class="horizontal-bars type-2">
                                                 <li>
                                                     <i class="icon-user"></i>
-                                                    <span class="title">Male</span>
+                                                    <span class="title">Homen</span>
                                                     <span class="value">43%</span>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -450,7 +450,7 @@
                                                 </li>
                                                 <li>
                                                     <i class="icon-user-female"></i>
-                                                    <span class="title">Female</span>
+                                                    <span class="title">Mulher</span>
                                                     <span class="value">37%</span>
                                                     <div class="bars">
                                                         <div class="progress progress-xs">
@@ -461,7 +461,7 @@
                                                 <li class="divider"></li>
                                                 <li>
                                                     <i class="icon-globe"></i>
-                                                    <span class="title">Organic Search</span>
+                                                    <span class="title">Pesquisa Orgânica</span>
                                                     <span class="value">191,235
                                                         <span class="text-muted small">(56%)</span>
                                                     </span>
@@ -529,7 +529,7 @@
                                                 <!--/.col-->
                                                 <div class="col-sm-6">
                                                     <div class="callout callout-primary">
-                                                        <small class="text-muted">Bounce Rate</small>
+                                                        <small class="text-muted">Taxa de Retorno</small>
                                                         <br>
                                                         <strong class="h4">5%</strong>
                                                         <div class="chart-wrapper">
@@ -590,11 +590,11 @@
                                                 <li>
                                                     <i class="icon-user bg-danger"></i>
                                                     <div class="desc">
-                                                        <div class="title">Premium accounts</div>
+                                                        <div class="title">Contas Premiun</div>
                                                         <small>Lorem ipsum dolor sit amet</small>
                                                     </div>
                                                     <div class="value">
-                                                        <div class="small text-muted">Sold this week</div>
+                                                        <div class="small text-muted">Vendas na ultima semana</div>
                                                         <strong>928</strong>
                                                     </div>
                                                     <div class="actions">
@@ -662,11 +662,11 @@
                                             <tr>
                                                 <th class="text-center"><i class="icon-people"></i>
                                                 </th>
-                                                <th>User</th>
-                                                <th class="text-center">Country</th>
+                                                <th>Usuario</th>
+                                                <th class="text-center">Pais</th>
                                                 <th>Usage</th>
-                                                <th class="text-center">Payment Method</th>
-                                                <th>Activity</th>
+                                                <th class="text-center">Metodo de Pagamento</th>
+                                                <th>Atividade</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -680,7 +680,7 @@
                                                 <td>
                                                     <div>Yiorgos Avraamu</div>
                                                     <div class="small text-muted">
-                                                        <span>New</span>| Registered: Jan 1, 2015
+                                                        <span>Novo</span>| Registrado: Jan 1, 2015
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
@@ -703,8 +703,8 @@
                                                     <i class="fa fa-cc-mastercard" style="font-size:24px"></i>
                                                 </td>
                                                 <td>
-                                                    <div class="small text-muted">Last login</div>
-                                                    <strong>10 sec ago</strong>
+                                                    <div class="small text-muted">Ultimo acesso</div>
+                                                    <strong>10 seg atrás</strong>
                                                 </td>
                                             </tr>
                                             <tr>
