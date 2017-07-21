@@ -41,26 +41,29 @@ class Nucleo {
         $url = explode("index.php", $_SERVER['PHP_SELF']);
         $url = end($url);
         $params = array();
-        if (!empty($url)) {
+        if (!empty($url)):
             $url = explode('/', $url);
+            if (isset($url[2])):
+                if (strlen($url[2]) == 0):
+                    unset($url[2]);
+                endif;
+            endif;
             array_shift($url);
             $controladorAtual = $url[0].'Controlador';
             array_shift($url);
-            if (isset($url[0])) {
+            if (isset($url[0])):
                 $acaoAtual = $url[0];
                 array_shift($url);
-            }
-            else {
+            else:
                 $acaoAtual = 'inicio';
-            }
-            if (count($url) > 0) {
+            endif;
+            if (count($url) > 0):
                 $params = $url;
-            }
-        }
-        else {
+            endif;
+        else:
             $controladorAtual   = 'inicioControlador';
             $acaoAtual          = 'inicio';
-        }
+        endif;
         require_once 'Controlador.php';
         $c = new $controladorAtual();
         call_user_func_array(array($c, $acaoAtual), $params);
