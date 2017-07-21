@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -405,7 +404,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 	<!-- //Blogs -->
 	<!-- team -->
-	<script src="js/jquery.vide.min.js"></script>	
+	<script src="arquivos/js/jquery.vide.min.js"></script>	
 	<div data-vide-bg="video/Conference">
 		<div class="center-container">
 		<div class="team-w3l" id="team">
@@ -736,7 +735,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<script type="text/javascript" src="arquivos/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
 			
 		<!-- Baneer-js -->
-		<script src="js/responsiveslides.min.js"></script>
+		<script src="arquivos/js/responsiveslides.min.js"></script>
 		<script>
 				$(function () {
 					$("#slider").responsiveSlides({
@@ -758,7 +757,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		
 		<!-- For-Gallery-js -->
 			<!-- script for portfolio -->
-			<script type='text/javascript' src='js/jquery.easy-gallery.js' ></script>
+			<script type='text/javascript' src='arquivos/js/jquery.easy-gallery.js' ></script>
 			<script type='text/javascript'>
 			  //init Gallery
 			  $('.portfolio').easyGallery();

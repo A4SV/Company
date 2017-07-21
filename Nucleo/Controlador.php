@@ -41,7 +41,9 @@ class Controlador extends Csrf {
             $viewName = implode("/", $viewNameArray);
         endif;
         extract($viewData);
-        include __DIR__.'/../Pagina/'.$viewName.'.php';
+        if (file_exists(__DIR__.'/../Pagina/'.$viewName.'.php')):
+            include __DIR__.'/../Pagina/'.$viewName.'.php';
+        endif;
     }
 
     public function carregarModelo($viewName, $viewData = array(), $template = false) {

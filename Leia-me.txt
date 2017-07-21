@@ -1,42 +1,57 @@
-Ei Nicola:
-1. Traduzi o painel, algumas coisas não porque deveriam estar abreviadas e pq será
-algo inutilizado por nós
-    
-2. O menu que você pediu 
+Hello People
 
-Colaboradores (Programadores):
+To sign in, the system uses the login and password below:
+Admin panel: User: administrador and password: senha
 
-# Painel (inicio)
-# Sites Criados
-* Comissão ganha (total)
-# Cursos (disponibilizaremos a todos colaboradores cursos)
-*  Link do Curso de xx 
-#  Suporte 
+Developer panel: user: programador and password: senha.
 
-PS: Sem muita mas acho que é isso
+The pages should be changed in 'Paginas/painel'.
 
-Gestao do site (Administradores):
+I did not find a logout button, to exit use the url '/conta/sair'.
 
-# Painel (inicio)
-# Colaboradores
-* Salarios (Seria para verificar os gastos da Company)
-* Sites Criados (aqui vai ter os pedidos e se foram atendidose por qual colaborador)
-# cursos
-* Add link curso (algo do tipo)
+Warning: See all pages before changing!
 
-PS: Sem muita mas acho que é isso
-
-3.criei o index lá não traduzi porq algumas coisas não será necessarias...
-pasta css-index lá contém o style da index ...Tira aquele "Layout .. " que está aparecendo na pag inicio.php
-
-4.Como vai ser o painel dos usuarios?
-
-5. Quando vc criar o BD me passa dps e fala as suas conf do bd para eu n prescisar 
-ter que alterar o config sempre que for verificar e fazer algo
-
-Acho que é so isso;
+List of files to change:
+aCursos.php
+aInicio.php
+ComissaoGanha.php
+login.php
+pCursos.php
+pInicio.php
+salarios.php
+sitesCriados.php
+suporte.php
 
 
-Flw 07 At+
+Below is your previous message:
 
-@Gabriel
+    Ei Nicola:
+    1. Traduzi o painel, algumas coisas não porque deveriam estar abreviadas e pq será
+    algo inutilizado por nós
+    Okay
+
+    2. O menu que você pediu 
+    OKay
+
+    3.criei o index lá não traduzi porq algumas coisas não será necessarias...
+    pasta css-index lá contém o style da index ...Tira aquele "Layout .. " que está aparecendo na pag inicio.php
+    Okay
+
+    4.Como vai ser o painel dos usuarios?
+    ???
+
+    5. Quando vc criar o BD me passa dps e fala as suas conf do bd para eu n prescisar 
+    ter que alterar o config sempre que for verificar e fazer algo
+    BD Depois
+
+    Acho que é so isso;
+
+
+    Flw 07 At+
+
+    @Gabriel
+
+
+At+ xD
+
+@Nicola
